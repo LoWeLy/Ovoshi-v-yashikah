@@ -10,6 +10,11 @@
 		10A5FDD01991DE8200975F43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A5FDCF1991DE8200975F43 /* Foundation.framework */; };
 		10A5FDD31991DE8200975F43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5FDD21991DE8200975F43 /* main.m */; };
 		10A5FDD71991DE8200975F43 /* Ovoshi_v_yashikah.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 10A5FDD61991DE8200975F43 /* Ovoshi_v_yashikah.1 */; };
+		10A5FDDF1991E05100975F43 /* MiracleBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5FDDE1991E05100975F43 /* MiracleBox.m */; };
+		10A5FDE31991E42700975F43 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A5FDE21991E42700975F43 /* Box.m */; };
+		10CA9D8A1991E561008FB9C8 /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA9D891991E560008FB9C8 /* Thing.m */; };
+		10CA9D8D1991F492008FB9C8 /* AppleBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA9D8C1991F492008FB9C8 /* AppleBox.m */; };
+		10CA9D901991F5E4008FB9C8 /* Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA9D8F1991F5E4008FB9C8 /* Banana.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,17 @@
 		10A5FDD21991DE8200975F43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10A5FDD51991DE8200975F43 /* Ovoshi v yashikah-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ovoshi v yashikah-Prefix.pch"; sourceTree = "<group>"; };
 		10A5FDD61991DE8200975F43 /* Ovoshi_v_yashikah.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ovoshi_v_yashikah.1; sourceTree = "<group>"; };
+		10A5FDDD1991E05100975F43 /* MiracleBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiracleBox.h; sourceTree = "<group>"; };
+		10A5FDDE1991E05100975F43 /* MiracleBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiracleBox.m; sourceTree = "<group>"; };
+		10A5FDE01991E26600975F43 /* FreshChecking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreshChecking.h; sourceTree = "<group>"; };
+		10A5FDE11991E42700975F43 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Box.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		10A5FDE21991E42700975F43 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Box.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		10CA9D881991E560008FB9C8 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
+		10CA9D891991E560008FB9C8 /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thing.m; sourceTree = "<group>"; };
+		10CA9D8B1991F492008FB9C8 /* AppleBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleBox.h; sourceTree = "<group>"; };
+		10CA9D8C1991F492008FB9C8 /* AppleBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleBox.m; sourceTree = "<group>"; };
+		10CA9D8E1991F5E4008FB9C8 /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
+		10CA9D8F1991F5E4008FB9C8 /* Banana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banana.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,8 @@
 		10A5FDD11991DE8200975F43 /* Ovoshi v yashikah */ = {
 			isa = PBXGroup;
 			children = (
+				10CA9D911991F726008FB9C8 /* Things */,
+				10CA9D921991F730008FB9C8 /* Boxes */,
 				10A5FDD21991DE8200975F43 /* main.m */,
 				10A5FDD61991DE8200975F43 /* Ovoshi_v_yashikah.1 */,
 				10A5FDD41991DE8200975F43 /* Supporting Files */,
@@ -86,6 +104,31 @@
 				10A5FDD51991DE8200975F43 /* Ovoshi v yashikah-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10CA9D911991F726008FB9C8 /* Things */ = {
+			isa = PBXGroup;
+			children = (
+				10CA9D881991E560008FB9C8 /* Thing.h */,
+				10CA9D891991E560008FB9C8 /* Thing.m */,
+				10CA9D8E1991F5E4008FB9C8 /* Banana.h */,
+				10CA9D8F1991F5E4008FB9C8 /* Banana.m */,
+			);
+			name = Things;
+			sourceTree = "<group>";
+		};
+		10CA9D921991F730008FB9C8 /* Boxes */ = {
+			isa = PBXGroup;
+			children = (
+				10A5FDE01991E26600975F43 /* FreshChecking.h */,
+				10A5FDE11991E42700975F43 /* Box.h */,
+				10A5FDE21991E42700975F43 /* Box.m */,
+				10A5FDDD1991E05100975F43 /* MiracleBox.h */,
+				10A5FDDE1991E05100975F43 /* MiracleBox.m */,
+				10CA9D8B1991F492008FB9C8 /* AppleBox.h */,
+				10CA9D8C1991F492008FB9C8 /* AppleBox.m */,
+			);
+			name = Boxes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CA9D901991F5E4008FB9C8 /* Banana.m in Sources */,
+				10CA9D8A1991E561008FB9C8 /* Thing.m in Sources */,
 				10A5FDD31991DE8200975F43 /* main.m in Sources */,
+				10CA9D8D1991F492008FB9C8 /* AppleBox.m in Sources */,
+				10A5FDDF1991E05100975F43 /* MiracleBox.m in Sources */,
+				10A5FDE31991E42700975F43 /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +301,7 @@
 				10A5FDDC1991DE8200975F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
